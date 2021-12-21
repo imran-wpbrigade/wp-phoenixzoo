@@ -1,0 +1,5 @@
+@media (max-width: 782px){
+    body.admin-bar .main-nav-container-mobile{
+        top: 105px;
+    }
+}

@@ -1,0 +1,22 @@
+@media (max-width: 374px) {
+
+
+    .elementor-265 .elementor-element.elementor-element-55ada57 .elementor-image img {
+        width: 81px;
+    }
+    .elementor-265 .elementor-element.elementor-element-0db3d0b .elementor-image img {
+        width: 58px;
+    }
+    .elementor-265 .elementor-element.elementor-element-e702648 {
+        width: 60%;
+    }
+    .elementor-265 .elementor-element.elementor-element-ee6ffc2 {
+        width: 40%;
+    }
+    .elementor-265 .elementor-element.elementor-element-55ada57 > .elementor-widget-container {
+        padding: 0px 0px 0px 19px;
+    }
+    .footer-top-menu ul li:not(:last-child) {
+        margin-right: 10px !important;
+    }
+  }

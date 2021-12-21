@@ -1,0 +1,598 @@
+/*
+Table of Contents
+1.  Generic ----------------------------------------
+    01. Fonts -------------------------------------
+    02. Base --------------------------------------
+    03. Helpers -----------------------------------
+2.  Page Sections ----------------------------------
+    01. Wrapper -----------------------------------
+    02. Header ------------------------------------
+    03. Main Content ------------------------------
+    04. Footer ------------------------------------
+*/
+
+/* ==========================================================================
+I.   Generic
+========================================================================== */
+
+/* ------------------------------------------------------------
+    Fonts
+------------------------------------------------------------ */
+
+/*
+    font-family: 'Luckiest Guy';
+    font-family: 'Oswald';
+    font-family: 'MyriadPro';
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy|Oswald:300,400,700&display=swap");
+
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../fonts/MyriadPro-Regular.woff") format("woff"),
+    url("../fonts/MyriadPro-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ------------------------------------------------------------
+Base
+------------------------------------------------------------ */
+
+html {
+  color: #000e3c;
+  font-size: 10px;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+input,
+select,
+input[type="search"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+img {
+  max-width: 100%;
+}
+
+body p {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  color: #4a4a4a;
+  line-height: normal;
+  font-weight: 300;
+}
+.elementor-text-editor p {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+}
+
+/* a {
+  font-family    : inherit
+  font-weight    : inherit;
+  text-decoration: none;
+  color          : #0092c6;
+  font-size      : inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color          : #0092c6;
+} */
+a {
+  font-family: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: #0092c6;
+  font-size: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0092c6;
+}
+
+body a,
+body p a {
+  color: #0092c6;
+}
+
+body a,
+body p a:hover {
+  color: #0092c6;
+  text-decoration: underline;
+}
+
+.site-main ul,
+.site-main ol {
+  margin-bottom: 20px;
+}
+
+.site-main ul {
+  font-size: 0;
+}
+
+.site-main ul li {
+  font-size: 20px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: inherit;
+  margin-bottom: 12px;
+}
+
+.site-main ol {
+  list-style: decimal outside;
+  font-size: 0;
+  padding-left: 18px;
+}
+
+.site-main ol li {
+  font-size: 20px;
+  line-height: normal;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: inherit;
+  margin-bottom: 12px;
+}
+
+.site-main ol ol,
+.site-main ul ul,
+.site-main ol ul,
+.site-main ul ol {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.site-main
+  ul:not(.elementor-editor-element-settings):not(.elementor-select-preset-list):not(.elementor-icon-list-items):not(.gform_fields) {
+  margin-left: 12px;
+  padding-left: 0;
+}
+
+.site-main ul li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  color: #4a4a4a;
+  list-style: none;
+  position: relative;
+  padding-left: 24px;
+  margin: 0;
+}
+
+.site-main
+  ul:not(.elementor-editor-element-settings):not(.elementor-select-preset-list):not(.elementor-icon-list-items):not(.gform_fields):not(.camps_and_programs)
+  li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background-color: #4a4a4a;
+}
+
+h1[class],
+h2[class],
+h3[class],
+h4[class],
+h5[class],
+h6[class],
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ul:last-child,
+ol:last-child,
+dl:last-child,
+table:last-child,
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  color: #4a4a4a;
+  line-height: normal;
+  font-weight: 300;
+}
+
+body .elementor-widget-heading h1.elementor-heading-title,
+body h1,
+body .h1 {
+  font-size: 80px;
+  font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+body .elementor-widget-heading h2.elementor-heading-title,
+body h2,
+body .h2 {
+  font-size: 40px;
+  font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: normal;
+}
+
+body .elementor-widget-heading h3.elementor-heading-title,
+body h3,
+body .h3 {
+  font-size: 28px;
+  font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+body .elementor-widget-heading h4.elementor-heading-title,
+body h4,
+body .h4 {
+  font-size: 24px;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+}
+
+body .elementor-widget-heading h5.elementor-heading-title,
+body h5,
+body .h5 {
+  font-size: 22px;
+  font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+}
+
+body .elementor-widget-heading h6.elementor-heading-title,
+body h6,
+body .h6 {
+  font-size: 18px;
+  font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  line-height: normal;
+}
+
+/* ------------------------------------------------------------
+  Helpers
+------------------------------------------------------------ */
+
+.float_left {
+  float: left !important;
+}
+
+.float_right {
+  float: right !important;
+}
+
+.float_none {
+  float: none !important;
+}
+
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.d_none {
+  display: none !important;
+}
+
+.d_inline {
+  display: inline !important;
+}
+
+.d_inline_block {
+  display: inline-block !important;
+}
+
+.d_block {
+  display: block !important;
+}
+
+.d_table {
+  display: table !important;
+}
+
+.d_table_cell {
+  display: table-cell !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+/* ----------------------Button style---------------------- */
+[type="button"],
+[type="submit"]:not(.adminbar-button),
+button,
+.elementor-button,
+.elementor-button:visited,
+.elementor-button:focus {
+  color: #e5722a;
+  /* color             : #fff; */
+  background-color: transparent;
+  font-size: 18px !important;
+  line-height: 1.333333333333333 !important;
+  padding: 16px 33px !important;
+  font-weight: normal;
+  border: 3px solid #e5722a;
+  display: inline-block !important;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 0 !important;
+  -webkit-appearance: none;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  font-family: "Luckiest Guy", cursive, sans-serif;
+  text-transform: uppercase;
+  max-width: 100%;
+}
+.is_safari [type="button"], .is_safari [type="submit"]:not(.adminbar-button), .is_safari button, .is_safari .elementor-button, .is_safari .elementor-button:visited, .is_safari .elementor-button:focus{
+  padding: 18px 33px 13px !important;
+}
+.elementor-button.elementor-size-sm {
+  font-size: 14px !important;
+  line-height: 1.7143 !important;
+  padding: 7px 16px !important;
+  border-width: 2px;
+}
+.is_safari .elementor-button.elementor-size-sm{
+  padding: 9px 16px 5px !important;
+}
+
+.elementor-button:after,
+[type="button"]:after {
+  content: "";
+  width: 178px;
+  display: block;
+  max-width: 100%;
+}
+
+.elementor-button.elementor-size-sm:after {
+  width: 142px;
+}
+
+[type="button"]:hover,
+[type="submit"]:not(.adminbar-button):hover,
+.elementor-button:hover,
+[type="button"]:focus,
+[type="button"]:hover,
+[type="submit"]:not(.adminbar-button):focus,
+button:focus,
+button:hover {
+  background-color: #e5722a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+[type="submit"]:not(.adminbar-button) {
+  width: 218px;
+  max-width: 100%;
+}
+
+body .elementor-button {
+  text-decoration: none;
+}
+
+.button-fill .elementor-button {
+  background-color: #e5722a;
+  color: #ffffff;
+  border: 3px solid #e5722a;
+}
+
+.button-fill .elementor-button:hover {
+  background-color: transparent;
+  color: #e5722a;
+}
+
+.button-blue .elementor-button {
+  background-color: transparent;
+  color: #0092c6;
+  border: 3px solid #0092c6;
+}
+
+.button-blue .elementor-button:hover {
+  background-color: #0092c6;
+  color: #ffffff;
+}
+
+.button-blue-fill .elementor-button {
+  background-color: #0092c6;
+  color: #ffffff;
+  border: 3px solid #0092c6;
+}
+
+.button-blue-fill .elementor-button:hover {
+  background-color: transparent;
+  color: #0092c6;
+}
+
+.button-green .elementor-button {
+  background-color: transparent;
+  color: #7ab642;
+  border: 3px solid #7ab642;
+}
+
+.button-green .elementor-button:hover {
+  background-color: #7ab642;
+  color: #ffffff;
+}
+
+.button-green-fill .elementor-button {
+  background-color: #7ab642;
+  color: #ffffff;
+  border: 3px solid #7ab642;
+}
+
+.button-green-fill .elementor-button:hover {
+  background-color: transparent;
+  color: #7ab642;
+}
+
+.button-yellow .elementor-button {
+  background-color: transparent;
+  color: #ffa400;
+  border: 3px solid #ffa400;
+}
+
+.button-yellow .elementor-button:hover {
+  background-color: #ffa400;
+  color: #ffffff;
+}
+
+.button-yellow-fill .elementor-button {
+  background-color: #ffa400;
+  color: #ffffff;
+  border: 3px solid #ffa400;
+}
+
+.button-yellow-fill .elementor-button:hover {
+  background-color: transparent;
+  color: #ffa400;
+}
+
+.button-white .elementor-button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+.button-white .elementor-button:hover {
+  background-color: #ffffff;
+  color: #7ab642;
+}
+.button-white.hover-filled-yellow .elementor-button:hover{
+  color: #ffa400;
+}
+.button-white.hover-filled-blue .elementor-button:hover{
+  color: #0092c6;
+}
+.button-white.hover-filled-brown .elementor-button:hover{
+  color: #e5722a;
+}
+.button-white-fill .elementor-button{
+  background: #ffffff;
+  color: #7ab642;
+}
+.button-white-fill .elementor-button:hover{
+  background: rgba(255,255,255, .25);
+  color: #fff !important;
+}
+.button-white-fill.white-filled-yellow .elementor-button{
+  color: #ffa400;
+}
+.button-white-fill.white-filled-blue .elementor-button{
+  color: #0092c6;
+}
+.button-white-fill.white-filled-brown .elementor-button{
+  color: #e5722a;
+}
+/* ul {
+  list-style: disc outside;
+  font-size: 0;
+} */
+
+ul li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: inherit;
+  margin-bottom: 12px;
+}
+
+ol {
+  list-style: decimal outside;
+  font-size: 0;
+  padding-left: 18px;
+}
+
+ol li {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: 300;
+  color: inherit;
+  margin-bottom: 12px;
+}
+
+.elementor-column-gap-default
+  > .elementor-row
+  > .elementor-column
+  > .elementor-element-populated {
+  padding: 0;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+  width: calc(100% - 30px);
+}
+
+.elementor-section.elementor-section-boxed
+  > .elementor-container
+  .elementor-container {
+  width: 100%;
+}

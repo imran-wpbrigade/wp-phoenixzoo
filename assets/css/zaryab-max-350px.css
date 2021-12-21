@@ -1,0 +1,10 @@
+@media only screen and (max-width: 350px) {
+  .events-happening-sections
+    .happening-content
+    .event-list-wrapper
+    .events-list
+    li
+    .Event-time {
+    font-size: 14px;
+  }
+}

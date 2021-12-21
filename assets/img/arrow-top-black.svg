@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="11px" viewBox="0 0 21 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="0.2---Membership" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Membership" transform="translate(-1151.000000, -3488.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="FAQs" transform="translate(-5.000000, 3141.000000)">
+                <g id="FAQ-2" transform="translate(240.000000, 312.000000)">
+                    <path d="M931.519081,50.8345149 L931.84033,50.5016971 C932.053223,50.2811052 932.053223,49.9234319 931.84033,49.702793 L922.958725,40.4999794 L931.84033,31.2971658 C932.053223,31.0765739 932.053223,30.7189007 931.84033,30.4982617 L931.519081,30.1654439 C931.306188,29.944852 930.960997,29.944852 930.748103,30.1654439 L921.15967,40.1005509 C920.946777,40.3211428 920.946777,40.678816 921.15967,40.899455 L930.748103,50.834562 C930.960997,51.0551538 931.306188,51.0551538 931.519081,50.8345149 Z" id="Path" transform="translate(926.500000, 40.500000) scale(1, -1) rotate(-90.000000) translate(-926.500000, -40.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

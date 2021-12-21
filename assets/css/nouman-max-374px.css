@@ -1,0 +1,14 @@
+@media only screen and (max-width: 374px) {
+    body .helper-bar-section .elementor-row .elementor-column:nth-child(n) {
+        width: 100%;
+    }
+    .helper-bar-section .elementor-row .elementor-column:not(:last-child) .elementor-widget-container{
+        margin-bottom: 30px;
+    }
+    .helper-links-section .helper-links-row .elementor-row .elementor-column {
+        width: 100%;
+    }
+    .helper-links-section .helper-links-row .elementor-row .elementor-column:not(:last-child) .elementor-column-wrap{
+        margin-bottom: 30px;
+    }
+}

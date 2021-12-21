@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="21px" viewBox="0 0 11 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="2.1.1---Trail-Detail" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Trail-Detail" transform="translate(-139.000000, -4663.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Go-Wild" transform="translate(96.000000, 3016.000000)">
+                <g id="Forward/Backward" transform="translate(0.000000, 1608.000000)">
+                    <path d="M53.5190814,59.8345149 L53.8403298,59.5016971 C54.0532234,59.2811052 54.0532234,58.9234319 53.8403298,58.702793 L44.9587252,49.4999794 L53.8403298,40.2971658 C54.0532234,40.0765739 54.0532234,39.7189007 53.8403298,39.4982617 L53.5190814,39.1654439 C53.3061878,38.944852 52.9609968,38.944852 52.7481032,39.1654439 L43.1596702,49.1005509 C42.9467766,49.3211428 42.9467766,49.678816 43.1596702,49.899455 L52.7481032,59.834562 C52.9609968,60.0551538 53.3061878,60.0551538 53.5190814,59.8345149 Z" id="Path" transform="translate(48.500000, 49.500000) rotate(-360.000000) translate(-48.500000, -49.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

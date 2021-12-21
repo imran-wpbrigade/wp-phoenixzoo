@@ -1,0 +1,186 @@
+.our-critters-section .critters-block-row .elementor-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 243px;
+}
+.our-critters-section
+  .elementor-column-gap-default
+  .critters-block-row
+  .elementor-element-populated {
+  padding: 0 5px 57px;
+}
+.our-critters-section .critters-heading .elementor-text-editor h2 {
+  margin: 0;
+}
+.our-critters-section .critters-heading .elementor-text-editor p {
+  margin-top: 13px;
+}
+
+body .events-happening-sections > .elementor-container {
+  max-width: 1060px !important;
+}
+.events-happening-sections .happening-image .elementor-widget-image img {
+  position: absolute;
+  right: 0;
+  top: 108px;
+  width: 42.5%;
+  z-index: 1;
+}
+
+.events-happening-sections .happening-image .elementor-widget-image img {
+  position: absolute;
+  right: 0;
+  top: -31px;
+  width: auto;
+  max-width: 51.7%;
+  z-index: 1;
+}
+body:not(.elementor-editor-active)
+  .events-happening-sections
+  .happening-image
+  .elementor-widget,
+body:not(.elementor-editor-active)
+  .events-happening-sections
+  .happening-image
+  .elementor-widget-wrap,
+body:not(.elementor-editor-active)
+  .events-happening-sections
+  .happening-image
+  .elementor-column-wrap,
+body:not(.elementor-editor-active) .events-happening-sections .elementor-column,
+body:not(.elementor-editor-active)
+  .events-happening-sections
+  .elementor-container {
+  position: static !important;
+}
+.events-happening-sections .happening-content .event-list-wrapper .events-list {
+  list-style: none;
+  padding-left: 0;
+  padding-right: 62px;
+}
+.events-happening-sections
+  .happening-content
+  .event-list-wrapper
+  .events-list
+  li {
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 0 14px;
+  border-bottom: 1px solid #ebeaeb;
+  margin-bottom: 0;
+  letter-spacing: 0.03em;
+}
+.events-happening-sections
+  .happening-content
+  .event-list-wrapper
+  .events-list
+  li:before {
+  display: none !important;
+}
+.events-happening-sections
+  .happening-content
+  .event-list-wrapper
+  .events-list
+  li
+  .Event-timeevent-title {
+  font-weight: 400;
+}
+.events-happening-sections
+  .happening-content
+  .event-list-wrapper
+  .events-list
+  li
+  .Event-time {
+  margin-right: 10px;
+  margin-left: 30px;
+  letter-spacing: -0.01em;
+}
+.events-happening-sections .elementor-widget:not(:last-child) {
+  margin-bottom: 26px;
+}
+.events-happening-sections
+  .happening-content
+  .event-list-wrapper
+  .events-list
+  li:last-child {
+  border-bottom: none;
+}
+.content-image-section .content-image-content-wrapper .elementor-row {
+  flex-direction: row-reverse;
+}
+.content-image-section
+  .content-image-content-wrapper
+  .content-image-content
+  strong {
+  font-weight: 400;
+}
+.content-video-section .elementor-row {
+  flex-direction: row-reverse;
+}
+
+.discover-section .discover-content-right .discover-content-right-heading h6 {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.discover-section .discover-content-right .rough-terrain:after,
+.discover-section .discover-content-right .wheelchair-accessible:after,
+.discover-section .discover-content-right .headphone-zone:after {
+  content: "";
+  position: absolute;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  top: 2px;
+  left: -5px;
+}
+.discover-section .discover-content-right .rough-terrain:after {
+  background: #fdf0e8 url(../img/icon-hills.svg) center center no-repeat;
+}
+.discover-section .discover-content-right .wheelchair-accessible:after {
+  background: #fdf0e8 url(../img/icon-wheelchair.svg) center center no-repeat;
+}
+.discover-section .discover-content-right .headphone-zone:after {
+  background: #fdf0e8 url(../img/icon-headphone.svg) center center no-repeat;
+}
+.gform_wrapper
+  input:not([type="radio"]):not([type="file"]):not([type="image"]):not([type="checkbox"]) {
+  line-height: 1.5 !important;
+}
+.our-critters-section .critters-block-row .critters-block .elementor-image img {
+  transition: all 0.1s;
+}
+.our-critters-section
+  .critters-block-row
+  .critters-block
+  .elementor-image
+  img:hover {
+  transform: scale(1.1);
+}
+.our-critters-section
+  .critters-block-row
+  .critters-block
+  .elementor-heading-title
+  a:hover {
+  color: #e5722a;
+  text-decoration: underline;
+}
+
+.supporting-member-section.content-detail-wrapper
+  .three-column
+  .elementor-element-populated {
+  padding: 0 30px 31px !important;
+}
+.supporting-member-section.content-detail-wrapper
+  .elementor-row
+  .detail-column2 {
+  width: calc(33.33% - 20px);
+}
+.supporting-member-section.content-detail-wrapper
+  .detail-column2
+  .detail-main-heading
+  .elementor-heading-title {
+  padding: 0;
+}

@@ -1,0 +1,147 @@
+@media only screen and (max-width: 767px) {
+  .efforts-section .elementor-widget:not(:last-child) {
+    margin-bottom: 0px;
+  }
+  .multiple-button-section
+    .elementor-row
+    > div.elementor-element
+    + div.elementor-element
+    .elementor-widget-container {
+    padding: 0 0 0 15px;
+  }
+  .phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper {
+    display: none;
+  }
+  .elementor
+    .elementor-element.phoenix-tabs-section
+    .elementor-tab-title.elementor-active {
+    font-weight: 700;
+  }
+  .elementor .elementor-element.phoenix-tabs-section .elementor-tab-title {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ebeaeb;
+    margin-bottom: -1px;
+  }
+  body
+    .phoenix-contact-form
+    .gform_wrapper.gform_validation_error
+    .gform_body
+    ul
+    li.gfield.gfield_error.gf_right_half,
+  body
+    .phoenix-contact-form
+    .gform_wrapper.gform_validation_error
+    .gform_body
+    ul
+    li.gfield.gfield_error.gf_left_half,
+  .phoenix-contact-form .gform_wrapper ul.gform_fields li.gfield.gf_left_half,
+  .phoenix-contact-form .gform_wrapper ul.gform_fields li.gfield.gf_right_half,
+  body
+    .phoenix-contact-form
+    .gform_wrapper.gform_validation_error
+    .gform_body
+    ul
+    li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half),
+  .phoenix-contact-form .gform_wrapper ul.gform_fields li.gfield,
+  body .phoenix-contact-form .gform_wrapper .gform_footer,
+  body .phoenix-contact-form .gform_wrapper .gform_footer {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0;
+    margin: 0 0 27px;
+  }
+  body .phoenix-contact-form .gform_wrapper .validation_message {
+    font-size: 16px;
+  }
+  body
+    .phoenix-contact-form
+    .gform_wrapper
+    input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not([type="button"]):not([type="image"]):not([type="file"]),
+  body .phoenix-contact-form .gform_wrapper textarea,
+  body .phoenix-contact-form .gform_wrapper select {
+    height: 60px;
+    border-radius: 0;
+    padding: 13px 15px;
+    font-size: 18px;
+    color: #4a4a4a;
+  }
+  body .phoenix-contact-form .gform_wrapper textarea {
+    height: 120px;
+    display: block;
+  }
+  .styledSelect {
+    height: 60px;
+    border-radius: 0;
+    padding: 15px 36px 15px 15px;
+    font-size: 18px;
+  }
+  .styledSelect:before {
+    right: 11px;
+    background-size: 15px 8px;
+    width: 16px;
+    height: 9px;
+    margin-top: -4px;
+  }
+  body .phoenix-contact-form .gform_wrapper select {
+    background-position: no-repeat right 11px center;
+  }
+  .select .options li {
+    padding-left: 0;
+    font-size: 18px;
+    padding: 7px 15px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  .pricing-section [class*="phoenix-pricing-style"]:nth-child(n) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .create-own-section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .efforts-section.nopaw .elementor-top-column:nth-child(2) {
+    margin-bottom: 20px !important;
+  }
+
+  .elementor .elementor-element.phone-tabs .elementor-tab-content {
+    border-top: 1px solid #ebeaeb;
+    border-bottom: 0;
+  }
+  .elementor .elementor-element.phone-tabs .elementor-tabs-content-wrapper {
+    border-bottom: 0;
+  }
+
+  .gform_confirmation_message {
+    font-size: 20px;
+    width: 270px;
+  }
+  body .phoenix-contact-form .gform_wrapper .gform_footer input.button + img,
+  .gform_wrapper .gform_footer input[type="submit"] + img,
+  body
+    .phoenix-contact-form
+    .gform_wrapper
+    .gform_page_footer
+    input.button
+    + img,
+  .gform_wrapper .gform_page_footer input[type="submit"] + img {
+    position: absolute;
+    top: 120%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    left: 50%;
+  }
+  .mobile-bg-repeat-x {
+    background-repeat: repeat-y;
+    background-position: center;
+  }
+  .pricing-section [class*="phoenix-pricing-style"]:last-child {
+    padding-bottom: 0 !important;
+  }
+  .efforts-section.nopaw .elementor-top-column:nth-child(2){
+    height: 250px;
+  }
+}

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 1440px) {
+  body:not(.elementor-editor-active)
+    .efforts-section
+    .top-right-image
+    .elementor-widget-wrap
+    img,
+  .events-happening-sections .happening-image .elementor-widget-image img {
+    width: auto;
+    z-index: 1;
+  }
+  body:not(.elementor-editor-active) .efforts-section .elementor-widget-image .elementor-widget-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 42.5%;
+    z-index: 0;
+}
+}

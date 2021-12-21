@@ -1,0 +1,56 @@
+/* ==========================================================================
+Code for footer
+========================================================================== */
+footer[data-element_type="section"] {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-top-section {
+    padding-bottom: 40px;
+  }
+  .footer-top-menu ul li {
+    font-family: "Luckiest Guy";
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .footer-top-menu ul li:first-child > a {
+    color: #81bc00;
+  }
+  .footer-top-menu ul li:nth-child(2) > a {
+    color: #e65400;
+  }
+  .footer-top-menu ul li:nth-child(3) > a {
+    color: #00a1e0;
+  }
+  .footer-address-section p strong {
+    font-weight: 700;
+  }
+  .footer-address-section p {
+    margin: 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .footer-address-section p a{
+      color: inherit;
+  }
+  .footer-address-section p a:hover{
+      text-decoration: underline;
+      color: inherit;
+  }
+  .footer-bottom-menu ul li {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .footer-bottom-menu ul li a {
+    color: #fff;
+  }
+  .footer-bottom-menu {
+    padding-top: 32px;
+  }
+  .footer-logos-section {
+    padding-top: 0px;
+  }
+
+  /*=======================  End of Code for footer   ========================== */

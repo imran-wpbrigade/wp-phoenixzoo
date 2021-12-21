@@ -1,0 +1,598 @@
+body:not(.elementor-editor-active)
+  .efforts-section.elementor-section
+  .elementor-container {
+  position: static;
+}
+.efforts-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92px;
+  background: url(../img/paw.svg) center -15px no-repeat;
+  height: 92px;
+  background-size: contain;
+}
+.efforts-section .efforts-section-content p {
+  color: #ffffff;
+  margin-top: 0;
+}
+.efforts-section
+  .efforts-section-content
+  > .elementor-column-wrap.elementor-element-populated {
+  padding-right: 67px;
+  padding-left: 15px;
+}
+body:not(.elementor-editor-active) .efforts-section .elementor-column-wrap {
+  position: static;
+}
+body:not(.elementor-editor-active) .efforts-section .elementor-widget-wrap {
+  position: static;
+}
+
+.multiple-button-section .elementor-row > div.elementor-element {
+  width: auto;
+}
+body{
+  overflow-x: hidden;
+}
+.efforts-section .elementor-widget:not(:last-child){
+  margin-bottom: 18px;
+}
+body:not(.elementor-editor-active) .page-content{
+  width: 100%;
+  overflow: hidden;
+}
+body:not(.elementor-editor-active) .phoenix-image-slider .elementor-swiper-button-prev{
+  left: -45px;
+  background: url(../img/arrow-left.svg) no-repeat center center;
+  background-size: 11px 21px;
+}
+body:not(.elementor-editor-active) .phoenix-image-slider .elementor-swiper-button-next{
+  right: -45px;
+  background: url(../img/arrow-right.svg) no-repeat center center;
+  background-size: 11px 21px;
+}
+body:not(.elementor-editor-active) .phoenix-image-slider [class^="elementor-swiper-button"]>i{
+  opacity: 0;
+}
+body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-prev{
+  left: 0;
+  background: url(../img/arrow-left-slider.svg) no-repeat left center;
+  background-size: 20px 38px;
+  top: calc(50% - 34px);
+}
+body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-next{
+  right: 0;
+  background: url(../img/arrow-right-slider.svg) no-repeat right center;
+  background-size: 20px 38px;
+  top: calc(50% - 34px);
+}
+body:not(.elementor-editor-active) .phoenix-content-slider [class^="elementor-swiper-button"]>i{
+  opacity: 0;
+}
+.efforts-section.nopaw:before{
+  display: none;
+}
+.create-own-section{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.phoenix-content-slider .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom,.phoenix-content-slider .swiper-pagination-fraction{
+  bottom: 8px;
+}
+.phoenix-content-slider .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:not(.swiper-pagination-bullet-active){
+  background: none;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+body:not(.elementor-editor-active) .phoenix-content-slider   .elementor-testimonial{
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
+}
+body:not(.elementor-editor-active) .phoenix-content-slider .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 7px;
+}
+
+/* ==========================================================================
+Tabs Code
+========================================================================== */
+.elementor .elementor-element.phoenix-tabs-section .elementor-tab-title{
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-size: 20px;
+  padding: 17px 15px 19px
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper{
+  display: flex;
+  overflow: visible;
+  width: 100%;
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper a:hover{
+  text-decoration: none;
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title:hover a{
+  color: #0092c6;
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title{
+  padding: 16px;
+  border: 0;
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active>a{
+  font-weight: 700;
+}
+.phoenix-tabs-section .elementor-widget-tabs .elementor-tabs-wrapper .elementor-tab-title>a{
+  width: 100%;
+  display: block;
+}
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title:before{
+  left: 0;
+}
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title{
+  position: relative;
+}
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title:before{
+  left: 0;
+  width: 100%;
+  content: '';
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  background: #ebeaeb;
+}
+
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active:before{
+  left: 0;
+  bottom: 0;
+}
+.elementor .elementor-element.phoenix-tabs-section .elementor-tab-title:not(.elementor-tab-mobile-title){
+  position: relative;
+  display: block;
+}
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active:after,
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active:before{
+  width: 100%;
+  left: 0;
+}
+
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title.elementor-active:before,
+.phoenix-tabs-section .elementor-widget-tabs.elementor-tabs-view-horizontal .elementor-tab-desktop-title:hover:before{
+  height: 3px;
+  background: #0092c6;
+  bottom: 0px !important;
+  z-index: 1;
+  border: 0;
+}
+.phoenix-tabs-section .elementor-tabs-content-wrapper .elementor-tab-mobile-title:last-of-type:not(.elementor-active){
+  border-bottom: 1px solid #ebeaeb;
+}
+body:not(.elementor-editor-active) .phoenix-image-slider .swiper-button-disabled{
+  cursor: default;
+}
+
+.phoenix-content-slider  .elementor-main-swiper{
+  width: 100%;
+}
+/*=======================  End of Tabs Code   ========================== */
+/* ==========================================================================
+Contact Form
+========================================================================== */
+.phoenix-contact-form .gform_wrapper{
+  margin: 0 auto;
+  width: 1000px;
+}
+.phoenix-contact-form .gform_wrapper ul.gform_fields{
+  display: flex;
+  flex-wrap: wrap;
+}
+.phoenix-contact-form .gform_wrapper ul.gform_fields{
+  padding: 0;
+}
+.phoenix-contact-form .gform_wrapper ul.gform_fields  li.gfield{
+  padding: 0 15px;
+   width: 100%;
+  margin: 0 0 48px;
+}
+.phoenix-contact-form .gform_wrapper ul.gform_fields  li.gfield.gf_left_half,
+.phoenix-contact-form .gform_wrapper ul.gform_fields  li.gfield.gf_right_half {
+  width: 50%;
+}
+body .phoenix-contact-form .gform_wrapper .top_label div.ginput_container{
+margin-top: 0 !important;
+}
+body .phoenix-contact-form .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+body .phoenix-contact-form .gform_wrapper textarea,
+body .phoenix-contact-form .gform_wrapper select{
+  margin: 0 !important;
+  height: 80px;
+  border-radius: 0;
+  padding: 18px 50px 18px 32px;
+  font-size: 24px;
+  color:#4a4a4a;
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+body .phoenix-contact-form .gform_wrapper textarea{
+  height: 277px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color:#4a4a4a;
+  opacity: 1;
+}
+::-moz-placeholder { /* Firefox 19+ */
+color:#4a4a4a;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color:#4a4a4a;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 18- */
+color:#4a4a4a;
+  opacity: 1;
+}
+body .phoenix-contact-form .gform_wrapper .gform_footer{
+  text-align: center;
+    padding: 0 15px;
+    margin: -14px 0 0;
+    clear: none;
+}
+body .phoenix-contact-form .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit]{
+  margin: 0;
+  min-width: 250px;
+}
+body .phoenix-contact-form .gform_wrapper li.gfield.gfield_error,
+body .phoenix-contact-form .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning{
+  background: none;
+  border: 0;
+  margin: 0 0 48px !important;
+  position: relative;
+}
+body .phoenix-contact-form .gform_wrapper .validation_message{
+  font-weight: 400;
+  color: #d0021b;
+  font-size: 18px;
+  line-height: 1.3;
+  padding: 0;
+  padding-right: 0 !important;
+  max-width: none !important;
+  width: auto;
+  font-weight: 300;
+      margin-top: 7px;
+  margin-bottom: -30px;
+  margin-right: -4px;
+}
+body .phoenix-contact-form .validation_error{
+  display: none
+}
+body .phoenix-contact-form .gform_wrapper .top_label .gfield_error input.large,
+body .phoenix-contact-form .gform_wrapper .top_label .gfield_error select.large,
+body .phoenix-contact-form .gform_wrapper .top_label .gfield_error .select .styledSelect,
+body .phoenix-contact-form .gform_wrapper .top_label .gfield_error textarea.textarea,
+body .phoenix-contact-form .gform_wrapper li.gfield_error input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]), body .phoenix-contact-form .gform_wrapper li.gfield_error textarea{
+    border: solid 1px rgba(208, 2, 27, 0.7);
+}
+body .phoenix-contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error:not(.gf_left_half):not(.gf_right_half){
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0 15px;
+}
+
+body .phoenix-contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error.gf_right_half,
+body .phoenix-contact-form .gform_wrapper.gform_validation_error .gform_body ul li.gfield.gfield_error.gf_left_half{
+  width: 50% !important;
+  max-width: 50% !important;
+  padding: 0 15px;
+}
+body .phoenix-contact-form .gform_wrapper select{
+  background:#fff url(../img/arrow-down-black.svg) no-repeat right 25px center;
+}
+.s-hidden{
+  display: none;
+}
+.styledSelect{
+  margin: 0 !important;
+  height: 80px;
+  border-radius: 0;
+  padding: 18px 50px 18px 32px;
+  font-size: 24px;
+  color: #4a4a4a;
+  border: 1px solid #979797;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  font-weight: 400;
+  cursor: pointer;
+}
+.select{
+  position: relative;
+}
+.select .options{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  padding: 0;
+  margin: -1px 0 0 !important;
+  list-style: none;
+display: none;
+      border: 1px solid #979797;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  max-height: 200px;
+  overflow: auto;
+}
+.select .options li{
+  padding-left: 0;
+      font-size: 24px;
+  padding: 10px 30px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.select .options li:hover, .select .options li.active{
+  background: #4a4a4a;
+  color: #fff;
+}
+.select .options li:before{
+  display: none !important;
+}
+.styledSelect{
+  position: relative;
+}
+select::-ms-expand {
+  display: none;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+}
+.styledSelect:before{
+  content: '';
+    width: 23px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    margin-top: -5px;
+    background: url(../img/arrow-down-black.svg) no-repeat right center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-size: 22px 11px;
+}
+.styledSelect.active:before{
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+.gform_confirmation_message{
+  font-family: "Luckiest Guy";
+  font-size: 19px;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  color: #e65400;
+  width: 430px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/*=======================  End of Contact Form   ========================== */
+
+/* ==========================================================================
+Pricing
+========================================================================== */
+[class*="phoenix-pricing-style"] .elementor-widget-price-table{
+  height: 100%;
+}
+[class*="phoenix-pricing-style"] .elementor-price-table__header{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elementor .elementor-element.phoenix-pricing-style1  .elementor-price-table__subheading,
+.elementor .elementor-element.phoenix-pricing-style2  .elementor-price-table__subheading,
+.elementor .elementor-element.phoenix-pricing-style3  .elementor-price-table__subheading{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 16px;
+}
+.elementor .elementor-element.phoenix-pricing-style1  .elementor-price-table__period,
+.elementor .elementor-element.phoenix-pricing-style2  .elementor-price-table__period,
+.elementor .elementor-element.phoenix-pricing-style3  .elementor-price-table__period{
+  font-weight: 300;
+  position: relative;
+  top: 4px;
+  left: 6px;
+}
+.elementor .elementor-element.phoenix-pricing-style1 .elementor-price-table__price,
+.elementor .elementor-element.phoenix-pricing-style2 .elementor-price-table__price
+.elementor .elementor-element.phoenix-pricing-style3 .elementor-price-table__price{
+  border-bottom: 1px solid #ebeaeb;
+}
+.pricing-section .elementor-price-table__features-list li:before{
+  display: none !important;
+}
+.pricing-section .elementor-price-table__features-list li{
+  line-height: 1.35;
+}
+.pricing-section .elementor-price-table__features-list li:not(:last-child):after{
+  content: 'or';
+  display: block;
+}
+.pricing-section [class*="phoenix-pricing-style"]{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.pricing-section .elementor-row{
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.elementor-price-table .elementor-price-table__features-list li .elementor-price-table__feature-inner{
+  margin: 0 25px;
+}
+.pricing-section .elementor-column-wrap{
+  margin: 0 !important;
+  overflow: hidden;
+}
+body:not(.elementor-editor-active) .pricing-section .elementor-price-table{
+  position: static;
+  background: #fff;
+  padding-bottom: 100px;
+}
+body:not(.elementor-editor-active) [class*="phoenix-pricing-style"] .elementor-widget-price-table{
+  position: relative;
+  background: #fff;
+}
+body:not(.elementor-editor-active) .pricing-section .elementor-price-table__footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+body:not(.elementor-editor-active) .pricing-section .elementor-widget-price-table .elementor-widget-container{
+  background: #fff;
+}
+.pricing-section .elementor-widget:not(:last-child){
+  margin-bottom: 18px;
+}
+.elementor .elementor-element.phone-tabs .elementor-tab-content{
+  padding-left: 0;
+  padding-right: 0;
+  border:0;
+}
+.site-main .phoenix-pricing-style1 ul:not(.elementor-editor-element-settings):not(.elementor-select-preset-list):not(.elementor-icon-list-items):not(.gform_fields){
+  margin-left: 0;
+}
+body .phoenix-contact-form .gform_wrapper .gform_footer,
+body .phoenix-contact-form .gform_wrapper .gform_page_footer{
+  position: relative;
+}
+body .phoenix-contact-form .gform_wrapper .gform_footer input.button + img, .gform_wrapper .gform_footer input[type=submit] + img,
+body .phoenix-contact-form .gform_wrapper .gform_page_footer input.button + img, .gform_wrapper .gform_page_footer input[type=submit] + img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+.elementor-section-wrap>header{
+  z-index: 999999;
+}
+body .gform_wrapper .ginput_container span:not(.ginput_price){
+  margin-bottom: 0 !important;
+}
+.text-ellipses{
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+.elementor .elementor-element.phoenix-tabs-section :not(.elementor-tab-mobile-title).elementor-tab-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-more-btn .elementor-button, .load-more-btn .elementor-button:focus, .load-more-btn .elementor-button:hover, .load-more-btn .elementor-button:active{
+  padding: 0 30px 0 0 !important;
+  border: 0;
+  border-bottom: 2px solid #7ab642;
+  color: #4a4a4a;
+  font-family: Oswald;
+font-size: 24px !important;
+  letter-spacing: 0.9px;
+  line-height: 1.5 !important;
+  position: relative;
+}
+.load-more-btn .elementor-button:hover{
+  background: none;
+  text-decoration: none;
+}
+.load-more-btn .elementor-button:after{
+  width: 0;
+  position: absolute;
+  background: url('../img/arrow-down-black.svg') no-repeat center center;
+  top: 4px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all  0.3s ease-in-out;
+  transition:  all 0.3s ease-in-out;
+}
+.load-more-btn .elementor-button.loaded:after{
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+body:not(.elementor-editor-active) .our-critters-toggle .load-more-btn{
+  display: none;
+}
+body:not(.elementor-editor-active) .our-critters-toggle .critters-block-row + .critters-block-row + .critters-block-row ~ .load-more-btn{
+  display: block;
+}
+body:not(.elementor-editor-active) .our-critters-toggle .critters-block-row + .critters-block-row ~ .critters-block-row{
+  display: none;
+}
+.ticket-rates strong{
+  font-weight: 400;
+}
+.admin-bar .page-content{
+  min-height: calc(100vh - 563px);
+}
+.page-content{
+  min-height: calc(100vh - 531px);
+}
+.hours-col a{
+  color: #e5722a;
+  font-family: Oswald;
+  font-weight: 300;
+}
+.hours-col a:hover{
+  color: #e5722a;
+}
+.ticket-rates p, .hours-col p{
+  margin-bottom: 0;
+}
+.ticket-rates p + p, .hours-col p + p{
+  margin-top: 5px;
+}
+.phoenix-call p{
+  padding: 7px 0 7px 54px;
+  position: relative;
+  background: url(../img/icon-phone.svg) no-repeat 0 center;
+  background-size: 41px auto;
+}
+.phoenix-for-family .camps_and_programs-wrapper .camps_and_programs li .event-img-wrapper{
+  border-top-color: #0092c6;
+}
+.working-all-hours li:not(:first-child){
+  display: none;
+  margin-top: 4px;
+}
+.phoenix-for-family .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper .category-name{
+  background: #0092c6;
+}
+.phoenix-for-family .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper h2 a,.phoenix-for-family .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper h2{
+  color: #0092c6;
+}
+.phoenix-for-family .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper a:not(:hover){
+  text-decoration: none;
+}
+.load-more-btn{
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 1025px) {
+  .phoenix-content-slider .elementor-main-swiper{
+    max-width: calc(100% - 60px);
+    margin: 0 auto;
+  }
+}
+/*=======================  End of Pricing   ========================== */

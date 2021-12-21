@@ -1,0 +1,78 @@
+	/**
+ * Stylesheet for admin area
+ */
+ 
+/* Custom Meta Boxes */
+
+.phoenixzoo-meta-name {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	font-weight: bold;
+	margin-top: 3px;
+}
+
+	.phoenixzoo-meta-name span { /* ("Optional)" */
+		color: #595959;
+		font-weight: normal;
+	}
+	
+.phoenixzoo-meta-name-secondary {
+	font-weight: normal;
+}
+
+.phoenixzoo-meta-value {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+
+	/* can also use widefat class for 100% */
+
+	.phoenixzoo-meta-value input[type=text],
+	.phoenixzoo-meta-value textarea {
+		width: 70%; /* leaves just enough room for butto on right */
+	}
+	
+	.phoenixzoo-meta-value textarea {
+		height: 56px;
+	}
+
+	.phoenixzoo-meta-medium input[type=text],
+	.phoenixzoo-meta-medium textarea {
+		width: 250px;
+	}
+	
+	.phoenixzoo-meta-small input[type=text],
+	.phoenixzoo-meta-small textarea {
+		width: 100px;
+	}
+
+	.phoenixzoo-meta-tiny input[type=text],
+	.phoenixzoo-meta-tiny textarea {
+		width: 40px;
+	}
+
+#side-sortables .phoenixzoo-meta-name,
+#side-sortables .phoenixzoo-meta-value { /* side column */
+	width: 100%;
+}
+
+/* Hide "Preview Changes" Button based on admin <body> classes*/
+
+.screen-base-post.screen-post_type-phoenixzoo_slide #minor-publishing-actions,
+.screen-base-post.screen-post_type-phoenixzoo_home_box #minor-publishing-actions,
+.screen-base-post.screen-post_type-phoenixzoo_staff #minor-publishing-actions,
+.screen-base-post.screen-post_type-phoenixzoo_location #minor-publishing-actions {
+	display: none;
+}
+
+.phoenixzoo-option-wide .of-input {
+	width: 100%;
+}
+
+.column-position,
+.column-start_date,
+.column-end_date {
+	width: 200px !important;
+}

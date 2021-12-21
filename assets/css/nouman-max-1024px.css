@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1024px) {
+    .helper-bar-section .elementor-row .elementor-column{
+        width: 50%;
+        max-width: 100%;
+    }
+    .helper-links-section .helper-links-row .elementor-row .elementor-column {
+        width: 50%;
+        max-width: 100%;
+    }
+    .forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item a{
+        font-size: 24px;
+    }
+    .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a{
+        padding: 30px 30px 30px 66px;
+    }
+    .is_safari .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a{
+        padding: 34px 30px 26px 66px;
+    }
+    .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a{
+        padding: 30px 66px 30px 30px;
+    }
+    .is_safari .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a{
+        padding: 34px 66px 26px 30px;
+    }
+    .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a:before{
+        left: 32px;
+    }
+    .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a:before{
+        right: 32px;
+    }
+}

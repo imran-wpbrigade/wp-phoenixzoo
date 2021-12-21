@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1024px) {
+  .efforts-section > .elementor-container > .elementor-row {
+    flex-direction: column-reverse;
+  }
+  body:not(.elementor-editor-active)
+    .efforts-section
+    .top-right-image
+    .elementor-widget-wrap
+    img {
+      position: static;
+    max-width: calc(100% + 11px);
+    width: auto;
+    margin-right: -22px;
+    float: right;
+  }
+  body:not(.elementor-editor-active) .efforts-section .top-right-image {
+    margin-bottom: 33px;
+  }
+  .efforts-section::before {
+    top: 0;
+    width: 45px;
+    height: 45px;
+    background-position: 0 -10px;
+  }
+  .efforts-section
+    .efforts-section-content
+    > .elementor-column-wrap.elementor-element-populated {
+    padding-right: 0;
+  }
+  .efforts-section .efforts-section-content p {
+    margin-top: 10px;
+  }
+  .efforts-section .efforts-section-content > .elementor-column-wrap.elementor-element-populated{
+    padding-left: 0;
+  }
+  body:not(.elementor-editor-active) .efforts-section .bottom-right-image img {
+    position: absolute;
+    /* right: -14px; */
+    position: relative;
+    /* margin-top: -41px; */
+    /* margin-right: -10px; */
+    max-width: calc(100% + 32px);
+    /* margin-bottom: 44px; */
+    /* bottom: 0; */
+  }
+  .efforts-section.green::before{
+    display: none;
+  }
+  .efforts-section.nopaw .elementor-top-column:nth-child(2){
+    width: auto !important;
+    position: static !important;
+    height: 400px !important;
+    margin: 0 -15px 40px !important;
+    padding: 0 !important;
+  }
+  body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-prev,
+  body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-next{
+    display: none;
+  }
+  .elementor .elementor-element.phoenix-tabs-section .elementor-tab-title{
+    font-size: 18px;
+  }
+  .pricing-section [class*="phoenix-pricing-style"]:nth-child(odd){
+    padding: 0 10px 20px 0;
+  }
+  .pricing-section [class*="phoenix-pricing-style"]:nth-child(even){
+    padding: 0 0 20px 10px;
+  }
+  .create-own-section{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .elementor .elementor-element.critters-block-row + .critters-block-row{
+    padding-top: 0;
+    display: none;
+  }
+  body:not(.elementor-editor-active) .critters-block-row + .critters-block-row ~ .load-more-btn{
+    display: block;
+  }
+  body:not(.elementor-editor-active) .efforts-section .elementor-widget-image .elementor-widget-container{
+    position: static;
+    max-width: none;
+  }
+  .ticket-rates p + p, .hours-col p + p{
+    margin-top: 3px;
+  }
+  .phoenix-call p{
+    background-size: 30px auto;
+    padding-left: 40px;
+  }
+}

@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1439px) {
+
+  body:not(.elementor-editor-active) .efforts-section .elementor-widget-image .elementor-widget-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 42.5%;
+    z-index: 0;
+}
+body:not(.elementor-editor-active) .efforts-section .top-right-image .elementor-widget-wrap{
+    position: relative !important;
+}
+.events-happening-sections .happening-image .elementor-widget-image img{
+  top: -2.15vw;
+}
+body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-prev{
+  left: 0;
+}
+body:not(.elementor-editor-active) .phoenix-content-slider .elementor-swiper-button-next{
+  right: 0;
+}
+}

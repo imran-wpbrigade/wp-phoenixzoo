@@ -1,0 +1,90 @@
+@media only screen and (max-width: 767px) {
+
+  [type=button],
+  [type=submit]:not(.adminbar-button),
+  button,
+  .elementor-button,
+  .elementor-button:focus {
+    font-size: 14px !important;
+    line-height: 1.7143 !important;
+    padding: 8px 17px !important;
+    border-width: 2px !important;
+  }
+
+  .is_safari [type=button],
+  .is_safari [type=submit]:not(.adminbar-button),
+  .is_safari button,
+  .is_safari .elementor-button,
+  .is_safari .elementor-button:focus {
+    font-size: 14px !important;
+    line-height: 1.7143 !important;
+    padding: 9px 16px 5px !important;
+    border-width: 2px !important;
+  }
+
+  .elementor-button:after,
+  [type=button]:after {
+    width: 142px;
+  }
+
+  .elementor-button.elementor-size-sm {
+    font-size: 14px !important;
+    line-height: 1.7143 !important;
+    padding: 7px 16px !important;
+  }
+  .is_safari .elementor-button.elementor-size-sm {
+    font-size: 14px !important;
+    line-height: 1.7143 !important;
+    padding: 9px 16px 5px  !important;
+  }
+
+  body .elementor-widget-heading h1.elementor-heading-title,
+  body h1,
+  body .h1,
+  .banner .elementor-row h1 {
+    font-size: 46px;
+  }
+
+  body .elementor-widget-heading h2.elementor-heading-title,
+  body h2,
+  body .h2 {
+    font-size: 30px;
+  }
+
+  body .elementor-widget-heading h3.elementor-heading-title,
+  body h3,
+  body .h3 {
+    font-size: 24px;
+  }
+
+  body .elementor-widget-heading h4.elementor-heading-title,
+  body h4,
+  body .h4 {
+    font-size: 20px;
+  }
+
+  body .elementor-widget-heading h5.elementor-heading-title,
+  body h5,
+  body .h5 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+  body p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .site-main ul li,
+  .site-main ol li{
+    font-size: 16px;
+  }
+  .site-main ul li{
+    padding-left: 18px;
+  }
+  .site-main ul:not(.elementor-editor-element-settings):not(.elementor-select-preset-list):not(.elementor-icon-list-items):not(.gform_fields):not(.camps_and_programs) li:before{
+    top: 12px;
+  }
+
+}

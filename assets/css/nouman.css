@@ -1,0 +1,247 @@
+.helper-bar-section .elementor-image-box-wrapper p.elementor-image-box-description {
+    color: #322e2d;
+    font-family: 'Myriad Pro';
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.helper-bar-section .elementor-image-box-wrapper p.elementor-image-box-description>a{
+    color: #322e2d;
+    text-decoration: none;
+}
+.banner .elementor-widget:not(:last-child){
+    margin-bottom: 43px;
+}
+.helper-bar-section .elementor-row{
+    justify-content: space-between;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.helper-bar-section .elementor-row .elementor-image-box-wrapper{
+    position: relative;
+    padding-left: 80px;
+}
+.elementor-element.helper-bar-section .elementor-row .elementor-image-box-img{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.helper-bar-section .elementor-row .elementor-image-box-title{
+    margin-top: 0;
+}
+.helper-bar-section .elementor-row .elementor-image-box-title a{
+    text-decoration: none;
+}
+.helper-bar-section .elementor-row .elementor-column{
+    width: auto;
+    padding: 0 10px;
+    max-width: 25%;
+}
+.elementor-element.full-width-content .elementor-container{
+    max-width: 969px;
+}
+.double-content-section .elementor-row .content-first-col{
+    padding-right: 20px;
+}
+.double-content-section .elementor-row .content-second-col{
+    padding-left: 16px;
+}
+.helper-links-section .helper-links-row .elementor-image-box-wrapper p a{
+    color: #4a4a4a;
+    font-size: 24px;
+    text-decoration: none;
+}
+.elementor-element.helper-links-section .elementor-container{
+    max-width: 964px;
+}
+.helper-links-section .helper-links-row .elementor-image-box-wrapper {
+    position: relative;
+    padding-left: 51px;
+}
+.elementor-element.helper-links-section .helper-links-row .elementor-image-box-wrapper .elementor-image-box-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 34px;
+}
+.helper-links-section .helper-links-row .elementor-row .elementor-column{
+    width: auto;
+    max-width: 25%;
+    padding: 0 10px;
+}
+.helper-links-section .helper-links-row .elementor-row{
+    justify-content: space-between;
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.elementor-element.accordion-section .elementor-container{
+    max-width: 970px;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item{
+    margin-bottom: 24px;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item .elementor-tab-title a{
+    font-size: 24px;
+    font-family: "Oswald", sans-serif, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item .elementor-tab-title{
+    position: relative;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item .elementor-tab-title a:hover{
+    text-decoration: none;
+    color: #4a4a4a;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item .elementor-tab-content{
+    border: 1px solid #ebeaeb;
+    border-top: 0;
+} 
+.accordion-section .elementor-element.faqs{
+    margin-bottom: 0;
+}
+.accordion-section .elementor-row .accordion .elementor-accordion .elementor-accordion-item .elementor-tab-title .elementor-accordion-icon {
+    width: auto;
+    position: absolute;
+    right: 33px;
+    top: 50%;
+    transform: translatey(-50%);
+    line-height: 0;
+}
+.forward-backward-section .forward-backward-wrap .elementor-row ul.elementor-icon-list-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item{
+    width: 50%;
+}
+.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item a{
+    color: #4a4a4a;
+    background-color: #e5f4f9;
+    font-size: 28px;
+    font-family: "Luckiest Guy", cursive, Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child{
+      margin-right: 30px;
+}
+.elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a{
+    border-radius: 100px 0 0 100px;
+    padding: 32px 32px 32px 76px;
+}
+.is_safari .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a{
+    padding: 36px 32px 28px 76px;
+}
+.elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a{
+    border-radius: 0 100px 100px 0;
+    padding: 32px 76px 32px 32px;
+    text-align: right;
+    justify-content: flex-end;
+}
+.is_safari .elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a{
+    padding: 36px 76px 28px 32px;
+}
+.elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:first-child a:before{
+    content: "";
+    position: absolute;
+    background-image: url('../img/arrow-left.svg');
+    background-repeat: no-repeat;
+    background-size: 11px 21px;
+    top: 50%;
+    left: 38px;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 21px;
+}
+.elementor-element.forward-backward-section .forward-backward-wrap .elementor-row .elementor-icon-list-items .elementor-icon-list-item:last-child a:before{
+    content: "";
+    position: absolute;
+    background-image: url('../img/arrow-right.svg');
+    background-repeat: no-repeat;
+    background-size: 11px 21px;
+    top: 50%;
+    right: 38px;
+    transform: translateY(-50%);
+    width: 13px;
+    height: 21px;
+}
+.for-radius.our-critters-section .critters-block-row .critters-block .elementor-image img{
+    border-radius: 50%;
+}
+
+/* ====== Blog Posts ====== */
+.phoenixzoo-blog-posts .elementor-row .elementor-posts {
+    /* display: flex;
+    justify-content: space-between;
+    margin: 0;
+    flex-wrap: wrap;
+    align-items: normal; */
+}
+    .phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post{
+    border: 1px solid #ebeaeb;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-top: 0 !important;
+    /* width: calc(33.33% - 18px); */
+    /* margin-bottom: 40px; */
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__thumbnail__link{
+    margin-bottom: 0;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text{
+    padding: 20px 16px;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__title{
+    font-size: 24px;
+    font-family: "Oswald";
+    line-height: normal;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__title a{
+    color: #e5722a;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__meta-data{
+    font-size: 18px;
+    font-family: "Oswald";
+    line-height: normal;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__excerpt p{
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: normal;
+    font-weight: 300;
+    color: #4a4a4a;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__read-more{
+    font-size: 16px;
+    font-family: "Oswald";
+    line-height: normal;
+    font-weight: 400;
+    color: #e5722a;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-posts .elementor-post .elementor-post__text .elementor-post__read-more:hover{
+    text-decoration: none;
+}
+.phoenixzoo-blog-posts .elementor-row .elementor-pagination{
+    margin-top: 30px;
+} 
+.phoenixzoo-blog-posts .elementor-row .elementor-pagination a{
+    color: #e5722a;
+} 

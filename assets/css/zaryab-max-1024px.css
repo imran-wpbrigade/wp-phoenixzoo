@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1024px) {
+  .events-happening-sections
+    .happening-content
+    .event-list-wrapper
+    .events-list
+    li {
+    font-size: 16px;
+  }
+  .events-happening-sections
+    .happening-content
+    .event-list-wrapper
+    .events-list {
+    padding-right: 0;
+  }
+  .events-happening-sections .happening-image .elementor-widget-image img {
+    position: relative;
+    right: auto;
+    top: 0;
+    width: 534px;
+    max-width: none;
+    z-index: 1;
+    float: right;
+    margin-top: -22px;
+    right: -124px;
+  }
+  .events-happening-sections .elementor-row .happening-image {
+    margin-bottom: 52px;
+  }
+  .supporting-member-section.content-detail-wrapper
+    .detail-column2
+    .detail-main-heading {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+  .supporting-member-section.content-detail-wrapper
+    .elementor-row
+    .detail-column2 {
+    width: calc(50% - 15px) !important;
+    margin-bottom: 30px;
+  }
+  .supporting-member-section.content-detail-wrapper
+    .three-column
+    .elementor-element-populated {
+    padding: 0 15px 31px !important;
+  }
+}

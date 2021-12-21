@@ -1,0 +1,6 @@
+@media only screen and (max-width: 980px) {
+  .detail-column2 .detail-main-heading {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+}

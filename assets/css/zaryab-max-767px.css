@@ -1,0 +1,79 @@
+@media only screen and (max-width: 767px) {
+  .our-critters-section .critters-heading .elementor-text-editor p {
+    margin-top: 18px;
+  }
+  .our-critters-section .critters-block-row .elementor-image {
+    height: auto;
+  }
+  .our-critters-section
+    .elementor-column-gap-default
+    .critters-block-row
+    .elementor-element-populated {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body .elementor-element.our-critters-section {
+    background-image: none !important;
+  }
+  body .elementor-element.our-critters-section .critters-block-row {
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .events-happening-sections
+    .happening-content
+    .event-list-wrapper
+    .events-list
+    li
+    .Event-time {
+    margin-right: 0;
+    margin-left: 15px;
+    text-align: right;
+  }
+  .events-happening-sections .happening-heading {
+    margin-bottom: 35px;
+  }
+  .events-happening-sections
+    .happening-content
+    .event-list-wrapper
+    .events-list
+    li {
+    padding: 19px 0 18px;
+  }
+  .events-happening-sections .happening-tickets-btn {
+    display: none;
+  }
+  .events-happening-sections .elementor-row .happening-image {
+    margin-bottom: 52px;
+  }
+  .events-happening-sections
+    .elementor-widget.happening-heading:not(:last-child) {
+    margin-bottom: 31px;
+  }
+  .events-happening-sections
+    .elementor-widget.event-list-wrapper:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  .events-happening-sections .multiple-button-section .elementor-row {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+  }
+  .events-happening-sections
+    .multiple-button-section
+    .elementor-row
+    > div.elementor-element
+    .elementor-button {
+    width: auto;
+  }
+  .content-video-section .elementor-row {
+    flex-direction: column-reverse;
+  }
+  .supporting-member-section.content-detail-wrapper
+    .elementor-row
+    .detail-column2 {
+    width: 100% !important;
+    margin-bottom: 30px;
+  }
+}

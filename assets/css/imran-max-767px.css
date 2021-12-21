@@ -1,0 +1,109 @@
+@media only screen and (min-width:768px){
+  .content-detail-wrapper .elementor-row .detail-column1{
+  /* width: 51.3%; */
+}
+.content-detail-wrapper .elementor-row .detail-column2{
+  width: 40.1%;
+}
+.detail-column1 .elementor-column-wrap {
+  max-width: 600px;
+}
+}
+@media only screen and (max-width:1023px){
+  .detail-column2 .elementor-widget-text-editor p br{
+    display:none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .upcoming-events-wrapper {
+    width: 100%;
+    max-width: 347px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .upcoming-events-wrapper .upcoming-events {
+    flex-direction: column;
+  }
+
+  .upcoming-events-wrapper .upcoming-events li {
+    margin: 0 0 36px;
+    width: 100%;
+  }
+
+  .upcoming-events-wrapper .upcoming-events li:last-child {
+    margin-bottom: 0;
+  }
+
+  .upcoming-events-wrapper .upcoming-events li .event-img-wrapper {
+    padding: 23px 0 72.1%;
+  }
+
+  .upcoming-events-wrapper .upcoming-events li .event-content-wrapper {
+    padding: 23px 16px 31px;
+  }
+
+  .upcoming-events-wrapper .upcoming-events li .event-content-wrapper h2 {
+    font-size: 24px;
+  }
+
+  /* breadcrumb */
+  .phoenixzoo-breadcrumb-wrapper .elementor-row>.elementor-column.breadcrumb-column{
+  width: 100%;
+}
+.phoenixzoo-breadcrumb-wrapper .elementor-row>.elementor-column.language-column{
+  width: 100%;
+}
+.phoenixzoo-breadcrumb-wrapper .elementor-row{
+  flex-direction: column-reverse;
+}
+.phoenixzoo-breadcrumb-wrapper #breadcrumbs span>span:first-child{
+  align-items:flex-start ;
+}
+.phoenixzoo-breadcrumb-wrapper #breadcrumbs span>span:first-child>a:first-child + span{
+  display: inline;
+  padding: 0;
+}
+.phoenixzoo-breadcrumb-wrapper #breadcrumbs span>span:first-child>a:first-child{
+  margin-top: 3px
+}
+  /* End breadcrumb */
+/*camps and programs section*/
+  .camps_and_programs-wrapper {
+    width: 100%;
+    max-width: 347px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs {
+    flex-direction: column;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs li {
+    margin: 0 0 36px;
+    width: 100%;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs li:last-child {
+    margin-bottom: 0;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs li .event-img-wrapper {
+    padding: 23px 0 72.1%;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper {
+    padding: 23px 16px 31px;
+  }
+
+  .camps_and_programs-wrapper .camps_and_programs li .event-content-wrapper h2 {
+    font-size: 24px;
+  }
+  /*Ends camps and programs section*/
+body:not(.elementor-page) .phoenixzoo-default-single,
+body:not(.elementor-page) .phoenixzoo-default-archive{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
